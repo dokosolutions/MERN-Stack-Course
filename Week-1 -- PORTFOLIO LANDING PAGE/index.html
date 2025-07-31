@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>DEVALAYA</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="my-image">
+                <img src="assets/dev-pic.jpeg" alt="">
+            </div>
+            <h2>About me</h2>
+            <p>I’m a MERN stack developer passionate about building clean, user-friendly web applications.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-gallery">
+                <div class="project-card">
+                    <img src="https://cdn.prod.website-files.com/5b5729421aca332c60585f78/63f5fa23da820b87c87958be_61ba503872080311dde1ea56_long-form-landing-page-examples.png"
+                        alt="Project 1" />
+                    <h3>Project One</h3>
+                    <p>A simple landing page using HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="project-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuEOuviYZ92A4L5B0zk_hh6S1t8tvwverlRQ&s"
+                        alt="Project 2" />
+                    <h3>Project Two</h3>
+                    <p>A mini e-commerce site with shopping cart features.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your Name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your Email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Devalaya Student</p>
+    </footer>
+</body>
+
+</html>
