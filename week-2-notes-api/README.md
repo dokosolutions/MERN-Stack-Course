@@ -1,0 +1,1 @@
+This system is all about the features of note app.
