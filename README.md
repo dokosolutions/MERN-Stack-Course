@@ -1,6 +1,6 @@
 # MERN-Stack-Course
 
-```
+```yaml
 Directory structure:
 └── dokosolutions-mern-stack-course/
     ├── README.md
@@ -79,4 +79,4 @@ Directory structure:
                 └── contexts/
                     ├── index.js
                     └── TodoContext.js
-```
+```yaml
